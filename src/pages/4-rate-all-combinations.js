@@ -11,8 +11,8 @@ const PageFour = () => (
     <p>
       Just by looking at the 112 combinations, it immediately becomes obvious,
       that <b>some of them are potentially very useful</b> (e.g. smoke detector
-      triggers alarm), while
-      <b>others are almost useless</b> (smoke detector triggers music player).
+      triggers alarm), while <b>others are almost useless</b> (smoke detector
+      triggers music player).
     </p>
     <p>
       At this step, due to <b>lack of data</b>, we add ratings based on

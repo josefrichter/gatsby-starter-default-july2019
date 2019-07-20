@@ -635,3 +635,9 @@ ul.pageslist {
   margin: 0;
   padding: 0;
 }
+
+nav,
+nav * {
+  margin-left: 0;
+  padding-left: 0 !important;
+}

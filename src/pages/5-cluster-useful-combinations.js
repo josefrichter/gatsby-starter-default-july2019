@@ -14,7 +14,7 @@ const PageFive = () => (
       alarm, CO detector triggers alarm, etc.
     </p>
     <p>
-      Based on these similarities, we can come up with some
+      Based on these similarities, we can come up with some{" "}
       <b>initial packages of devices that naturally complement each other</b>
       and therefore provide some sort of synergy and added value for the user.
     </p>
