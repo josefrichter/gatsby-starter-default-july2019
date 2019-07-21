@@ -22,7 +22,13 @@ const PageSeven = () => (
     "
     />
     <p className="mb-5">
-      <a href="https://sketch.cloud/s/0x0mj">Link: Sketch Templates</a>
+      <a
+        href="https://sketch.cloud/s/zQg1y"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Link: Sketch Templates
+      </a>
     </p>
     <Link to="/8-functional-prototype/">Next page</Link>
     <br />
