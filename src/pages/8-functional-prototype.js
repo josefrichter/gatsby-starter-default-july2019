@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageEight = () => (
   <Layout>
     <SEO title="Page eight" />
-    <h3 class="mb-5">Functional Prototype</h3>
+    <h3 className="mb-5">8. Functional Prototype</h3>
     <p>
       We created a sample functional prototype in Framer X. This prototype is
       fetching all the above data about devices, scenes and rules from Airtable
@@ -29,17 +29,19 @@ const PageEight = () => (
     </ol>
     <img
       alt="prototype screenshot"
-      class="img-fluid"
+      className="img-fluid"
       src="https://ucarecdn.com/2add1af1-18ff-4fce-a393-d2b0a6e0afe4/-/resize/1000x/1.jpg"
       srcset="
         https://ucarecdn.com/2add1af1-18ff-4fce-a393-d2b0a6e0afe4/-/resize/2000x/-/quality/lightest/1.jpg 2x
     "
     />
-    <p class="mb-5">
+    <p className="mb-5">
       <a href="https://clever-nobel-7335ab.netlify.com">
         Link: Functional Prototype
       </a>
     </p>
+    <Link to="/7-design-templates/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

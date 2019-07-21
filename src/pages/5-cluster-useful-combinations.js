@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageFive = () => (
   <Layout>
     <SEO title="Page five" />
-    <h3 class="mb-5">Cluster useful Combinations</h3>
+    <h3 className="mb-5">5. Cluster useful Combinations</h3>
     <p>
       It is obvious from the list of useful combinations, that
       <b> some of them are very similar </b>, e.g. smoke detector triggers
@@ -20,7 +20,7 @@ const PageFive = () => (
     </p>
     <iframe
       title="page-five-airtable"
-      class="airtable-embed mb-3"
+      className="airtable-embed mb-3"
       src="https://airtable.com/embed/shrlCnRgGvPhiHSro?backgroundColor=gray&viewControls=on"
       frameborder="0"
       onmousewheel=""
@@ -39,6 +39,10 @@ const PageFive = () => (
       useful (but not necessarily absolutely perfect) packages, that can improve
       the UX design process of the product.
     </p>
+    <Link to="/6-scenes-for-given-packages/">Next page</Link>
+    <br />
+    <Link to="/4-rate-all-combinations/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageTwo = () => (
   <Layout>
     <SEO title="Page two" />
-    <h3 class="mb-5">Split to Triggers vs Actors</h3>
+    <h3 className="mb-5">2. Split to Triggers vs Actors</h3>
     <p>
       Some categories <b>typically serve as triggers</b> for all kinds of
       actions, be it a user action, another device action, or anything else.
@@ -50,7 +50,7 @@ const PageTwo = () => (
     <p>The following table shows the categorized devices:</p>
     <iframe
       title="page-two-table"
-      class="airtable-embed"
+      className="airtable-embed"
       src="https://airtable.com/embed/shrxxv5jXQybPwd3s?backgroundColor=gray&viewControls=on"
       frameborder="0"
       onmousewheel=""
@@ -58,6 +58,10 @@ const PageTwo = () => (
       height="533"
       style={{ background: "transparent", border: "1px solid #ccc" }}
     />
+    <Link to="/3-generate-all-combinations/">Next page</Link>
+    <br />
+    <Link to="/1-categorize-devices/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

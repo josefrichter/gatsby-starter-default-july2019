@@ -2,8 +2,8 @@ import { Link } from "gatsby"
 import React from "react"
 
 const Sidebar = () => (
-  <nav className="sidebar">
-    <ul class="pageslist">
+  <nav className="sidebar mb-5">
+    <ul className="pageslist">
       <li>
         <Link to="/">Introduction to packages</Link>
       </li>

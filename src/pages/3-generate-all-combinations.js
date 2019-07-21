@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageThree = () => (
   <Layout>
     <SEO title="Page three" />
-    <h3 class="mb-5">Generate all Combinations</h3>
+    <h3 className="mb-5">3. Generate all Combinations</h3>
     <p>
       16 triggers times 7 actors is <b>112 combinations</b>.
     </p>
@@ -17,7 +17,7 @@ const PageThree = () => (
     </p>
     <iframe
       title="page-three-airtable"
-      class="airtable-embed"
+      className="airtable-embed"
       src="https://airtable.com/embed/shr5pVxGKnHPqjTjF?backgroundColor=gray&viewControls=on"
       frameborder="0"
       onmousewheel=""
@@ -25,6 +25,10 @@ const PageThree = () => (
       height="533"
       style={{ background: "transparent", border: "1px solid #ccc" }}
     />
+    <Link to="/4-rate-all-combinations/">Next page</Link>
+    <br />
+    <Link to="/2-split-to-triggers-vs-actors/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

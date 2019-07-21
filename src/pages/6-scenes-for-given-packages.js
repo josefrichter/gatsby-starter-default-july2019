@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageSix = () => (
   <Layout>
     <SEO title="Page six" />
-    <h3 class="mb-5">Scenes for given Packages</h3>
+    <h3 className="mb-5">6. Scenes for given Packages</h3>
     <p>
       It becomes apparent from the data, that scenes and rules/automations are
       pretty much the same thing.
@@ -22,12 +22,16 @@ const PageSix = () => (
     </p>
     <img
       alt="app concept screenshots"
-      class="img-fluid mb-5"
+      className="img-fluid mb-5"
       src="https://ucarecdn.com/a694c12d-59b0-4b4d-8302-67f95f20a7d7/-/resize/1000x/1.jpg"
       srcset="
         https://ucarecdn.com/a694c12d-59b0-4b4d-8302-67f95f20a7d7/-/resize/2000x/-/quality/lightest/1.jpg 2x
     "
     />
+    <Link to="/7-design-templates/">Next page</Link>
+    <br />
+    <Link to="/5-cluster-useful-combinations/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

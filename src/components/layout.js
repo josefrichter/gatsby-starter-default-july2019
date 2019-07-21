@@ -24,6 +24,21 @@ const Layout = ({ children }) => {
     }
   `)
 
+  // TODO how this works?
+  const pages = graphql`
+    query {
+      allSitePage {
+        edges {
+          node {
+            path
+          }
+        }
+      }
+    }
+  `
+
+  console.log("pages: ", pages)
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PageFour = () => (
   <Layout>
     <SEO title="Page four" />
-    <h3 class="mb-5">Rate all Combinations</h3>
+    <h3 className="mb-5">4. Rate all Combinations</h3>
     <p>
       Just by looking at the 112 combinations, it immediately becomes obvious,
       that <b>some of them are potentially very useful</b> (e.g. smoke detector
@@ -22,7 +22,7 @@ const PageFour = () => (
     </p>
     <iframe
       title="page-four-airtable"
-      class="airtable-embed"
+      className="airtable-embed"
       src="https://airtable.com/embed/shrdDuDVFhXgFjVFs?backgroundColor=gray&viewControls=on"
       frameborder="0"
       onmousewheel=""
@@ -30,6 +30,10 @@ const PageFour = () => (
       height="533"
       style={{ background: "transparent", border: "1px solid #ccc" }}
     />
+    <Link to="/5-cluster-useful-combinations/">Next page</Link>
+    <br />
+    <Link to="/3-generate-all-combinations/">Previous Page</Link>
+    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

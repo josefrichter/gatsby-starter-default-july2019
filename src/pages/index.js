@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h3 class="mb-5">Introduction to Packages</h3>
+    <h3 className="mb-5">Introduction to Packages</h3>
     <p>
       The purpose of this work was to come up with{" "}
       <b>realistic combinations of devices (aka. "packages")</b> that would
@@ -37,6 +37,7 @@ const IndexPage = () => (
       bringing solid results. Please feel free to leave your comments,
       suggestions or questions.
     </p>
+    <Link to="/1-categorize-devices/">Next page</Link>
   </Layout>
 )
 
